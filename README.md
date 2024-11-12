@@ -1,6 +1,6 @@
 # Repositorio de Trabajos (master_ucm)
 
-Este repositorio contiene una serie de trabajos realizados en diferentes lenguajes de programación y tecnologías para mi máster de Big Dara, Data Science e IA. A continuación se detalla la información sobre cada uno de los trabajos.
+Este repositorio contiene una serie de trabajos realizados en diferentes lenguajes de programación y tecnologías para mi máster de Big Data, Data Science e IA. A continuación se detalla la información sobre cada uno de los trabajos.
 
 ## Índice de Trabajos
 
