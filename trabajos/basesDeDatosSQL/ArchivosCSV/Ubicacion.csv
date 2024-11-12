@@ -1,0 +1,11 @@
+n_ubicacion;direccion;ciudad;aforo;precio_alquiler;caracteristicas
+Auditorio Municipal;Calle Principal 123;Madrid;500;1500.00;Aforo: 500, Equipado con sonido profesional
+Teatro Gran Vía;Calle Gran Vía 45;Madrid;800;2000.00;Aforo: 800, Escenario grande
+Centro Cultural;Avenida de la Cultura 10;Barcelona;300;800.00;Aforo: 300, Salón de actos
+Sala de Conciertos;Calle del Rock 20;Barcelona;600;1200.00;Aforo: 600, Ideal para conciertos en vivo
+Teatro Principal;Calle de la Comedia 50;Sevilla;400;1000.00;Aforo: 400, Gran acústica
+Centro Deportivo;Calle del Deporte 5;Valencia;700;1100.00;Aforo: 700, Espacio polivalente
+Plaza Mayor;Plaza Mayor s/n;Madrid;2000;3000.00;Aforo: 2000, Espacio al aire libre
+Museo de Arte;Avenida de la Historia 15;Granada;250;500.00;Aforo: 250, Ideal para exposiciones pequeñas
+Café Cultural;Calle de la Música 12;Barcelona;100;400.00;Aforo: 100, Espacio acogedor para eventos íntimos
+Palacio de Exposiciones;Avenida de la Feria 30;Sevilla;1200;2500.00;Aforo: 1200, Gran capacidad para ferias
