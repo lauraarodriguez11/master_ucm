@@ -7,7 +7,7 @@ Este repositorio contiene una serie de trabajos realizados en diferentes lenguaj
 1. [Trabajo 1: Creación de una Base de Datos](trabajos/1/README.md) del módulo de 'Bases de Datos SQL'
 2. [Trabajo 2: Filtrado y Agregación de un Catálogo Online](trabajos/2/README.md) del módulo de 'Bases de Datos No SQL'
 3. [Trabajo 3: Estadística Descriptiva e Inferencia](trabajos/3/README.md) del módulo de 'Estadística'
-4. [Trabajo 4: ](trabajos/4/README.md) 
+4. [Trabajo 4: ](trabajos/4/README.md) del módulo de 'Programación Python'
 
 ---
 
