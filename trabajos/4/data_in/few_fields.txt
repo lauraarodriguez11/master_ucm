@@ -56,7 +56,7 @@ Indiana Jones and the Kingdom of the Crystal Skull|2008|English|USA|185000000
 The Good Dinosaur|2015|English|USA|-1
 Brave|2012|English|USA|185000000
 Star Trek Beyond|2016|English|USA|185000000
-WALL·E|2008|English|USA|180000000
+WALLÂ·E|2008|English|USA|180000000
 Rush Hour 3|2007|English|USA|140000000
 2012|2009|English|USA|200000000
 A Christmas Carol|2009|English|USA|200000000
@@ -469,7 +469,7 @@ Spirit: Stallion of the Cimarron|2002|English|USA|80000000
 Zookeeper|2011|English|USA|80000000
 Lost in Space|1998|English|USA|80000000
 The Manchurian Candidate|2004|English|USA|80000000
-Déjà Vu|1997|English|USA|-1
+DÃ©jÃ  Vu|1997|English|USA|-1
 Hotel Transylvania 2|2015|English|USA|80000000
 Bewitched|-1|English|USA|-1
 Fantasia 2000|1999|English|USA|80000000
@@ -648,7 +648,7 @@ Lincoln|2012|English|USA|65000000
 The Matrix|1999|English|USA|63000000
 Apollo 13|1995|English|USA|62000000
 The Santa Clause 2|2002|English|USA|60000000
-Les Misérables|2012|English|USA|61000000
+Les MisÃ©rables|2012|English|USA|61000000
 You've Got Mail|1998|English|USA|65000000
 Step Brothers|2008|English|USA|65000000
 The Mask of Zorro|1998|English|USA|65000000
@@ -871,7 +871,7 @@ Chain Reaction|1996|English|USA|50000000
 The Fan|1996|English|USA|55000000
 The Phantom of the Opera|2004|English|UK|70000000
 Elizabeth: The Golden Age|2007|English|UK|55000000
-Æon Flux|2005|English|USA|62000000
+Ã†on Flux|2005|English|USA|62000000
 Gods and Generals|2003|English|USA|56000000
 Turbulence|1997|English|USA|71000000
 Imagine That|2009|English|USA|55000000
@@ -1153,7 +1153,7 @@ Here Comes the Boom|2012|English|USA|42000000
 High Crimes|2002|English|USA|42000000
 The Mirror Has Two Faces|1996|English|USA|42000000
 The Mothman Prophecies|2002|English|USA|32000000
-Brüno|2009|English|USA|42000000
+BrÃ¼no|2009|English|USA|42000000
 Licence to Kill|1989|English|UK|32000000
 Red Riding Hood|2011|English|USA|42000000
 15 Minutes|2001|English|USA|42000000
@@ -1238,7 +1238,7 @@ Gothika|2003|English|USA|40000000
 Amistad|1997|English|USA|36000000
 Medicine Man|1992|English|USA|40000000
 Aliens vs. Predator: Requiem|2007|English|USA|40000000
-Ri¢hie Ri¢h|1994|English|USA|40000000
+RiÂ¢hie RiÂ¢h|1994|English|USA|40000000
 Autumn in New York|2000|English|USA|40000000
 Music and Lyrics|2007|English|USA|-1
 Paul|2011|English|USA|40000000
@@ -1285,7 +1285,7 @@ Ishtar|1987|English|USA|51000000
 Fantastic Mr. Fox|2009|English|USA|40000000
 Life or Something Like It|2002|English|USA|40000000
 Memoirs of an Invisible Man|1992|English|USA|40000000
-Amélie|2001|French|France|77000000
+AmÃ©lie|2001|French|France|77000000
 New York Minute|2004|English|USA|30000000
 Alfie|2004|English|UK|60000000
 Big Miracle|2012|English|USA|40000000
@@ -2031,7 +2031,7 @@ Zombieland|2009|English|USA|23600000
 The Waterboy|1998|English|USA|20000000
 Star Wars: Episode V - The Empire Strikes Back|1980|English|USA|18000000
 Bad Boys|1995|English|USA|19000000
-The Naked Gun 2½: The Smell of Fear|1991|English|USA|23000000
+The Naked Gun 2Â½: The Smell of Fear|1991|English|USA|23000000
 Final Destination|2000|English|USA|23000000
 The Ides of March|2011|English|USA|12500000
 Pitch Black|2000|English|USA|23000000
@@ -2050,7 +2050,7 @@ Harley Davidson and the Marlboro Man|1991|English|USA|23000000
 In the Valley of Elah|2007|English|USA|-1
 Coco Before Chanel|2009|French|France|19430000
 Forsaken|2015|English|Canada|11000000
-Chéri|2009|English|UK|23000000
+ChÃ©ri|2009|English|UK|23000000
 Rogue|-1|English|USA|-1
 Vanity Fair|2004|English|USA|23000000
 Bodyguards and Assassins|2009|Mandarin|China|23000000
@@ -2099,7 +2099,7 @@ Mad Money|2008|English|USA|22000000
 Before I Go to Sleep|2014|English|UK|22000000
 Sorcerer|1977|English|USA|12000000
 Stone|2010|English|USA|22000000
-Molière|2007|French|France|16000000
+MoliÃ¨re|2007|French|France|16000000
 Out of the Furnace|2013|English|USA|22000000
 Michael Clayton|2007|English|USA|25000000
 My Fellow Americans|1996|English|USA|21500000
@@ -2414,7 +2414,7 @@ The Ice Storm|1997|English|USA|18000000
 And So It Goes|2014|English|USA|18000000
 Troop Beverly Hills|1989|English|USA|18000000
 Being Julia|2004|English|Canada|18000000
-9½ Weeks|1986|English|USA|17000000
+9Â½ Weeks|1986|English|USA|17000000
 Dragonslayer|1981|English|USA|18000000
 The Last Station|2009|English|Germany|13000000
 Ed Wood|1994|English|USA|18000000
@@ -2822,7 +2822,7 @@ Room|2015|English|Ireland|13000000
 Dirty Work|1998|English|Canada|13000000
 Serial Mom|1994|English|USA|13000000
 Dick|1999|English|France|13000000
-Del 1 - Män som hatar kvinnor|-1|Swedish|Sweden|-1
+Del 1 - MÃ¤n som hatar kvinnor|-1|Swedish|Sweden|-1
 Light It Up|1999|English|USA|13000000
 54|1998|English|USA|13000000
 Bubble Boy|2001|English|USA|13000000
@@ -3035,7 +3035,7 @@ Lovesick|-1|English|UK|-1
 Housefull|2010|Hindi|India|-1
 September Dawn|2007||USA|11000000
 For Greater Glory: The True Story of Cristiada|2012|Spanish|Mexico|10818775
-La Famille Bélier|2014|French|France|11000000
+La Famille BÃ©lier|2014|French|France|11000000
 Good Will Hunting|1997|English|USA|10000000
 Misconduct|2016|English|USA|11000000
 Saw III|2006|English|USA|10000000
@@ -3669,7 +3669,7 @@ Friday the 13th Part VIII: Jason Takes Manhattan|1989|English|USA|5000000
 My Big Fat Greek Wedding|2002|English|USA|5000000
 Spring Breakers|2012|English|USA|5000000
 Halloween: The Curse of Michael Myers|1995|English|USA|5000000
-Y Tu Mamá También|2001|Spanish|Mexico|2000000
+Y Tu MamÃ¡ TambiÃ©n|2001|Spanish|Mexico|2000000
 Shaun of the Dead|2004|English|UK|4000000
 The Haunting of Molly Hartley|2008|English|USA|5000000
 Lone Star|1996|English|USA|5000000
@@ -3866,7 +3866,7 @@ Shooting Fish|1997|English|UK|3000000
 Prison|1987|English|USA|1300000
 Psycho Beach Party|2000|English|Australia|1500000
 The Big Tease|1999|English|UK|4000000
-Buen Día, Ramón|2013|German|Mexico|4000000
+Buen DÃ­a, RamÃ³n|2013|German|Mexico|4000000
 Trust|2010|English|USA|9500000
 An Everlasting Piece|2000|English|USA|14000000
 Among Giants|1998|English|UK|2500000
@@ -3983,7 +3983,7 @@ Martin Lawrence Live: Runteldat|2002|English|USA|3000000
 Cat on a Hot Tin Roof|1958|English|USA|3000000
 Beneath the Planet of the Apes|1970|English|USA|3000000
 Air Bud|1997|English|USA|3000000
-Pokémon 3: The Movie|2000|Japanese|Japan|16000000
+PokÃ©mon 3: The Movie|2000|Japanese|Japan|16000000
 Jason Lives: Friday the 13th Part VI|1986|English|USA|3000000
 The Bridge on the River Kwai|1957|English|UK|3000000
 Spaced Invaders|1990|English|USA|3000000
@@ -4682,7 +4682,7 @@ Blue Ruin|2013|English|USA|1066167
 Paranormal Activity|2007|English|USA|15000
 Dogtown and Z-Boys|2001|English|USA|-1
 Monty Python and the Holy Grail|1975|English|UK|229575
-Quinceañera|2006|Spanish|USA|400000
+QuinceaÃ±era|2006|Spanish|USA|400000
 Gory Gory Hallelujah|2003|English|USA|100000
 Heroes|-1|English|USA|-1
 Tarnation|2003|English|USA|218
@@ -4817,7 +4817,7 @@ The Horse Boy|2009|English|USA|160000
 When the Lights Went Out|2012|English|UK|-1
 Heroes of Dirt|2015|English|USA|-1
 A Charlie Brown Christmas|1965|English|USA|150000
-Antarctic Edge: 70° South|2015|English|USA|150000
+Antarctic Edge: 70Â° South|2015|English|USA|150000
 Aroused|2013|English|USA|150000
 Top Spin|2014|English|USA|150000
 Roger & Me|1989|English|USA|160000
@@ -4828,7 +4828,7 @@ The Blood of My Brother|2005|English|USA|120000
 Your Sister's Sister|2011|English|USA|125000
 Romantic Schemer|2015|English|USA|125000
 A Dog's Breakfast|2007|English|Canada|120000
-Une Femme Mariée|1964|French|France|120000
+Une Femme MariÃ©e|1964|French|France|120000
 The Birth of a Nation|2016|English|USA|10000000
 The Work and the Story|2003|English|USA|103000
 Facing the Giants|2006|English|USA|100000
