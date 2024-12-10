@@ -7,8 +7,9 @@ Este repositorio contiene una serie de trabajos realizados en diferentes lenguaj
 1. [Trabajo 1: Creación de una Base de Datos](trabajos/1/README.md) del módulo de 'Bases de Datos SQL'
 2. [Trabajo 2: Filtrado y Agregación de un Catálogo Online](trabajos/2/README.md) del módulo de 'Bases de Datos No SQL'
 3. [Trabajo 3: Estadística Descriptiva e Inferencia](trabajos/3/README.md) del módulo de 'Estadística'
-4. [Trabajo 4: ](trabajos/4/README.md) del módulo de 'Programación Python'
-
+4. [Trabajo 4: Proyecto de Programación con Python](trabajos/4/README.md) del módulo de 'Programación Python'
+5. [Trabajo 5: Caso Práctico: Easy Loans - Análisis de Préstamos](trabajos/5/README.md) del módulo de 'Business Intelligence con Tableau'
+6. [Trabajo 6: ](trabajos/6/README.md) del módulo de 'Minería de Datos y Modelización Predictiva'
 ---
 
 ## Instrucciones Generales
