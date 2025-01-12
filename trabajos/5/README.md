@@ -15,5 +15,3 @@ El propósito es desarrollar habilidades avanzadas de análisis y visualización
 ## Archivos
 
 - **TareaFinal_LauraRodriguez.twbx**: Archivo principal en formato Tableau Workbook empaquetado que incluye todas las visualizaciones, cálculos y configuraciones realizadas.
-
-- **Portada.pdf** 
