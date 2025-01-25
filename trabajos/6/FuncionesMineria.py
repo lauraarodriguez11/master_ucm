@@ -202,7 +202,21 @@ def patron_perdidos(datos_input):
     # 'fmt=".2f"' formatea los valores como números de punto flotante con dos decimales
     # 'cbar=False' oculta la barra de color (escala) en el lado derecho
     # 'mask=mask' aplica la máscara para ocultar la mitad superior de la matriz
-    sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f", cbar=False, mask=mask)
+    sns.heatmap(correlation_matrix, annot=True, annot_kws={"size": 8}, cmap='coolwarm', fmt=".2f", cbar=False, mask=mask) #MODIFICADO
+    
+    # Ajusto las etiquetas en el eje Y para asegurar su visibilidad #MODIFICADO
+    plt.yticks(
+        ticks=np.arange(len(correlation_matrix.index)) + 0.5,  # Posición centrada para las etiquetas
+        labels=correlation_matrix.index,  # Nombres de las variables
+        rotation=0,  # Sin rotación
+        fontsize=10  # Tamaño de la fuente
+    )    
+    plt.xticks(
+        ticks=np.arange(len(correlation_matrix.columns)) + 0.5,  # Posición centrada para las etiquetas
+        labels=correlation_matrix.columns,  # Nombres de las variables
+        rotation=90,  # Rotación para mejor visibilidad
+        fontsize=10  # Tamaño de la fuente
+    )
     
     # Establezco el título del gráfico
     plt.title("Matriz de correlación de valores ausentes")
