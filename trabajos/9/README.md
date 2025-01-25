@@ -1,6 +1,6 @@
 # Trabajo 9: 
 
-Este trabajo pertenece al módulo de 'Machine Learning' y tiene el siguiente enunciado:
+Este trabajo pertenece al módulo de 'Minería de datos y Modelización Predictiva' y tiene el siguiente enunciado:
 
 ##### Enunciado
 
