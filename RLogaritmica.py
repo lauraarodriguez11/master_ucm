@@ -9,7 +9,7 @@ import pickle
 
 # Elijo el directorio de trabajo e importo las funciones necesarias
 os.chdir(r'C:/Users/lrodr/OneDrive/Documentos/master_ucm/trabajos/6')
-from FuncionesMineria import (graficoVcramer, summary_glm, validacion_cruzada_glm, glm_forward, glm_backward, glm_stepwise, 
+from FuncionesMineria import (graficoVcramer, validacion_cruzada_glm, glm_forward, glm_backward, glm_stepwise, 
                               Counter, impVariablesLog, curva_roc, sensEspCorte, crear_data_modelo, pseudoR2)
 
 # Cargo los datos depurados
@@ -49,10 +49,10 @@ y_train, y_test = y_train.astype(int), y_test.astype(int)
 # las que tienen mayor probabilidad de aportar información relevante al modelo, maximizando la eficiencia del análisis.
 graficoVcramer(datos_input, varObjBin)
 interacciones = ['Pob2010', 'PersonasInmueble', 'Age_under19_Ptge']
-interacciones_unicas = list(itertools.combinations(interacciones, 2))
+var_inter = list(itertools.combinations(interacciones, 2))
 
 # Seleccion de variables Backward, con métrica AIC
-modeloBackAIC = glm_backward(y_train, x_train, var_cont, var_categ, interacciones_unicas, 'AIC')
+modeloBackAIC = glm_backward(y_train, x_train, var_cont, var_categ, var_inter, 'AIC')
 pseudoR2(modeloBackAIC['Modelo'], modeloBackAIC['X'], y_train)
 x_test_modeloBackAIC = crear_data_modelo(x_test, modeloBackAIC['Variables']['cont'], modeloBackAIC['Variables']['categ'], modeloBackAIC['Variables']['inter'])
 pseudoR2(modeloBackAIC['Modelo'], x_test_modeloBackAIC, y_test)
@@ -60,7 +60,7 @@ len(modeloBackAIC['Modelo'].coef_[0])
 AUC1 = curva_roc(x_test_modeloBackAIC, y_test, modeloBackAIC)
 
 # Seleccion de variables Backward, con métrica BIC
-modeloBackBIC = glm_backward(y_train, x_train, var_cont, var_categ, interacciones_unicas, 'BIC')
+modeloBackBIC = glm_backward(y_train, x_train, var_cont, var_categ, var_inter, 'BIC')
 pseudoR2(modeloBackBIC['Modelo'], modeloBackBIC['X'], y_train)
 x_test_modeloBackBIC = crear_data_modelo(x_test, modeloBackBIC['Variables']['cont'], modeloBackBIC['Variables']['categ'], modeloBackBIC['Variables']['inter'])
 pseudoR2(modeloBackBIC['Modelo'], x_test_modeloBackBIC, y_test)
@@ -68,7 +68,7 @@ len(modeloBackBIC['Modelo'].coef_[0])
 AUC2 = curva_roc(x_test_modeloBackBIC, y_test, modeloBackBIC)
 
 # Seleccion de variables Forward, con métrica AIC
-modeloForwAIC = glm_forward(y_train, x_train, var_cont, var_categ, interacciones_unicas, 'AIC')
+modeloForwAIC = glm_forward(y_train, x_train, var_cont, var_categ, var_inter, 'AIC')
 pseudoR2(modeloForwAIC['Modelo'], modeloForwAIC['X'], y_train)
 x_test_modeloForwAIC = crear_data_modelo(x_test, modeloForwAIC['Variables']['cont'], modeloForwAIC['Variables']['categ'], modeloForwAIC['Variables']['inter'])
 pseudoR2(modeloForwAIC['Modelo'], x_test_modeloForwAIC, y_test)
@@ -76,7 +76,7 @@ len(modeloForwAIC['Modelo'].coef_[0])
 AUC3 = curva_roc(x_test_modeloForwAIC, y_test, modeloForwAIC)
 
 # Seleccion de variables Forward, con métrica BIC
-modeloForwBIC = glm_forward(y_train, x_train, var_cont, var_categ, interacciones_unicas, 'BIC')
+modeloForwBIC = glm_forward(y_train, x_train, var_cont, var_categ, var_inter, 'BIC')
 pseudoR2(modeloForwBIC['Modelo'], modeloForwBIC['X'], y_train)
 x_test_modeloForwBIC = crear_data_modelo(x_test, modeloForwBIC['Variables']['cont'], modeloForwBIC['Variables']['categ'], modeloForwBIC['Variables']['inter'])
 pseudoR2(modeloForwBIC['Modelo'], x_test_modeloForwBIC, y_test)
@@ -84,7 +84,7 @@ len(modeloForwBIC['Modelo'].coef_[0])
 AUC4 = curva_roc(x_test_modeloForwBIC, y_test, modeloForwBIC)
 
 # Seleccion de variables Stepwise, con métrica AIC
-modeloStepAIC = glm_stepwise(y_train, x_train, var_cont, var_categ, interacciones_unicas, 'AIC')
+modeloStepAIC = glm_stepwise(y_train, x_train, var_cont, var_categ, var_inter, 'AIC')
 pseudoR2(modeloStepAIC['Modelo'], modeloStepAIC['X'], y_train)
 x_test_modeloStepAIC = crear_data_modelo(x_test, modeloStepAIC['Variables']['cont'], modeloStepAIC['Variables']['categ'], modeloStepAIC['Variables']['inter'])
 pseudoR2(modeloStepAIC['Modelo'], x_test_modeloStepAIC, y_test)
@@ -92,7 +92,7 @@ len(modeloStepAIC['Modelo'].coef_[0])
 AUC5 = curva_roc(x_test_modeloStepAIC, y_test, modeloStepAIC)
 
 # Seleccion de variables Stepwise, con métrica BIC
-modeloStepBIC = glm_stepwise(y_train, x_train, var_cont, var_categ, interacciones_unicas, 'BIC')
+modeloStepBIC = glm_stepwise(y_train, x_train, var_cont, var_categ, var_inter, 'BIC')
 pseudoR2(modeloStepBIC['Modelo'], modeloStepBIC['X'], y_train)
 x_test_modeloStepBIC = crear_data_modelo(x_test, modeloStepBIC['Variables']['cont'], modeloStepBIC['Variables']['categ'], modeloStepBIC['Variables']['inter'])
 pseudoR2(modeloStepBIC['Modelo'], x_test_modeloStepBIC, y_test)
@@ -108,15 +108,15 @@ variables_seleccionadas = {
 }
 
 # Realizo 30 iteraciones de selección aleatoria.
-for x in range(30):
+for x in range(20):
     print('---------------------------- iter: ' + str(x))
     # Divido los datos de entrenamiento en conjuntos de entrenamiento y prueba.
     x_train2, x_test2, y_train2, y_test2 = train_test_split(x_train, y_train, test_size = 0.3, random_state = 1234567 + x)
     # Realizo la selección stepwise utilizando el criterio BIC en la submuestra.
-    modelo = glm_forward(y_train2.astype(int), x_train2.astype(int), var_cont, var_categ, interacciones_unicas, 'BIC')
+    modelo = glm_backward(y_train2.astype(int), x_train, var_cont, var_categ, var_inter, 'BIC')
     # Almaceno las variables seleccionadas y la fórmula correspondiente.
     variables_seleccionadas['Variables'].append(modelo['Variables'])
-    variables_seleccionadas['Formula'].append(sorted(modelo['Modelo'].model.exog_names))
+    variables_seleccionadas['Formula'].append(sorted(modelo['Modelo'].feature_names_in_))
 
 # Uno las variables en las fórmulas seleccionadas en una sola cadena.
 variables_seleccionadas['Formula'] = list(map(lambda x: '+'.join(x), variables_seleccionadas['Formula']))
@@ -141,7 +141,7 @@ results = pd.DataFrame({
     , 'Modelo': []
 })
 for rep in range(20):
-    modelo1 = validacion_cruzada_glm(5, x_train, y_train, modeloForwBIC['Variables']['cont'], modeloForwBIC['Variables']['categ'], modeloForwBIC['Variables']['inter'])
+    modelo1 = validacion_cruzada_glm(5, x_train, y_train, modeloBackBIC['Variables']['cont'], modeloBackBIC['Variables']['categ'], modeloBackBIC['Variables']['inter'])
     modelo2 = validacion_cruzada_glm(5, x_train, y_train, var_1['cont'], var_1['categ'], var_1['inter'])
     modelo3 = validacion_cruzada_glm(5, x_train, y_train, var_2['cont'], var_2['categ'], var_2['inter'])
     modelo4 = validacion_cruzada_glm(5, x_train, y_train, var_3['cont'], var_3['categ'], var_3['inter'])   
@@ -173,15 +173,12 @@ num_params = [len(modeloForwBIC['Modelo'].coef_[0]), len(frec_ordenada['Formula'
  len(frec_ordenada['Formula'][1].split('+')), len(frec_ordenada['Formula'][2].split('+'))]
 print(num_params)
 
+ModeloGanador = glm_backward(y_train, x_train, var_3['cont'], var_3['categ'], var_3['inter'], 'BIC')
 
-## Buscamos el mejor punto de corte
-
-# Probamos dos
-sensEspCorte(modelo5['Modelo'], x_test, y_test, 0.4, var_cont5, var_categ5)
-sensEspCorte(modelo5['Modelo'], x_test, y_test, 0.6, var_cont5, var_categ5)
-
+# Buscamos el mejor punto de corte
 # Generamos una rejilla de puntos de corte
 posiblesCortes = np.arange(0, 1.01, 0.01).tolist()  # Generamos puntos de corte de 0 a 1 con intervalo de 0.01
+# Creamos un DataFrame para almacenar las métricas para cada punto de corte
 rejilla = pd.DataFrame({
     'PtoCorte': [],
     'Accuracy': [],
@@ -189,9 +186,9 @@ rejilla = pd.DataFrame({
     'Specificity': [],
     'PosPredValue': [],
     'NegPredValue': []
-})  # Creamos un DataFrame para almacenar las métricas para cada punto de corte
+}) 
 
-for pto_corte in posiblesCortes:  # Iteramos sobre los puntos de corte
+for pto_corte in posiblesCortes: 
     rejilla = pd.concat(
         [rejilla, sensEspCorte(modelo5['Modelo'], x_test, y_test, pto_corte, var_cont5, var_categ5)],
         axis=0
@@ -199,7 +196,6 @@ for pto_corte in posiblesCortes:  # Iteramos sobre los puntos de corte
 
 rejilla['Youden'] = rejilla['Sensitivity'] + rejilla['Specificity'] - 1  # Calculamos el índice de Youden
 rejilla.index = list(range(len(rejilla)))  # Reindexamos el DataFrame para que los índices sean consecutivos
-
 
 plt.plot(rejilla['PtoCorte'], rejilla['Youden'])
 plt.xlabel('Posibles Cortes')
@@ -213,34 +209,36 @@ plt.ylabel('Accuracy')
 plt.title('Accuracy')
 plt.show()
 
-rejilla['PtoCorte'][rejilla['Youden'].idxmax()]
-rejilla['PtoCorte'][rejilla['Accuracy'].idxmax()]
+# Encuentro el punto de corte que maximiza el índice de Youden
+p1 = rejilla['PtoCorte'][rejilla['Youden'].idxmax()]
 
-# El resultado es 0.75 para youden y 0.5 para Accuracy
-# Los comparamos
-sensEspCorte(modelo5['Modelo'], x_test, y_test, 0.75, var_cont5, var_categ5)
-sensEspCorte(modelo5['Modelo'], x_test, y_test, 0.5, var_cont5, var_categ5)
+# Encuentro el punto de corte que maximiza la precisión ( Accuracy )
+p2 = rejilla['PtoCorte'][rejilla['Accuracy'].idxmax()]
+
+# El resultado es 0.75 para youden y 0.5 para Accuracy. Los comparamos
+sensEspCorte(ModeloGanador['Modelo'], x_test, y_test, p1, var_3['cont'], var_3['categ'], var_3['inter'])
+sensEspCorte(ModeloGanador['Modelo'], x_test, y_test, p2, var_3['cont'], var_3['categ'], var_3['inter'])
 
 # Vemos las variables mas importantes del modelo ganador
-impVariablesLog(modelo5, y_train, x_train, var_cont5, var_categ5)
-
+impVariablesLog(ModeloGanador['Modelo'], y_train, x_train, var_3['cont'], var_3['categ'], var_3['inter'])
 # Vemos los coeficientes del modelo ganador
-summary_glm(modeloStepAIC['Modelo'], varObjBin, datos_input)
-coeficientes = modelo5['Modelo'].coef_
-nombres_caracteristicas = crear_data_modelo(x_train, var_cont5, var_categ5).columns  # Suponiendo que X_train es un DataFrame de pandas
+summary_glm(ModeloGanador['Modelo'], y_train, ModeloGanador['X'])
+coeficientes = ModeloGanador['Modelo'].coef_
+
+nombres_caracteristicas = crear_data_modelo(x_train, var_3['cont'], var_3['categ'], var_3['inter']).columns  # Suponiendo que X_train es un DataFrame de pandas
 # Imprime los nombres de las características junto con sus coeficientes
 for nombre, coef in zip(nombres_caracteristicas, coeficientes[0]):
     print(f"Variable: {nombre}, Coeficiente: {coef}")
 
 # Evaluamos la estabilidad del modelo a partir de las diferencias en train y test:
-pseudoR2(modelo5['Modelo'], modelo5['X'], y_train)
-pseudoR2(modelo5['Modelo'], x_test_modelo5, y_test)
+x_test_ModeloGanador = crear_data_modelo(x_test, ModeloGanador['Variables']['cont'], ModeloGanador['Variables']['categ'], ModeloGanador['Variables']['inter'])
+pseudoR2(ModeloGanador['Modelo'], x_test_ModeloGanador, y_test)
 # Es poca la diferencia, por lo que el modelo se puede considerar robusto
-
+ 
 # Calculamos la diferencia del Area bajo la curva ROC en train y test
-curva_roc(crear_data_modelo(x_train, var_cont5, var_categ5), y_train, modelo5)
-curva_roc(x_test_modelo5, y_test, modelo5)
+curva_roc(crear_data_modelo(x_train , var_3['cont'], var_3['categ'], var_3['inter'], y_train , ModeloGanador))
+curva_roc(x_test_ModeloGanador, y_test, ModeloGanador)
 
 # Calculamos la diferencia de las medidas de calidad entre train y test 
-sensEspCorte(modelo5['Modelo'], x_train, y_train, 0.5, var_cont5, var_categ5)
-sensEspCorte(modelo5['Modelo'], x_test, y_test, 0.5, var_cont5, var_categ5)
+sensEspCorte(ModeloGanador['Modelo'], x_train, y_train, 0.5,  var_3['cont'], var_3['categ'], var_3['inter'])
+sensEspCorte(ModeloGanador['Modelo'], x_test, y_test, 0.5,  var_3['cont'], var_3['categ'], var_3['inter'])
