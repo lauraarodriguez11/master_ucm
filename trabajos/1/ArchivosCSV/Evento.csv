@@ -1,0 +1,14 @@
+n_evento,fecha_hora,descripcion,id_actividad,id_ubicacion
+Noche de Rock,2024-11-01 20:00:00,Un gran concierto de rock con bandas locales.,1,1
+Teatro de la Vida,2024-10-25 19:30:00,Una conmovedora obra de teatro.,2,2
+Arte en la Calle,2024-10-25 11:00:00,Exposición de artistas locales.,3,3
+Jazz en el Parque,2024-11-05 18:00:00,Festival de jazz al aire libre.,4,4
+Inspírate,2024-11-10 16:00:00,Charla motivacional con un orador destacado.,5,5
+Pintura al Aire Libre,2024-10-30 10:00:00,Taller de pintura en el parque.,6,3
+Danza en Escena,2024-11-20 21:00:00,Espectáculo de danza contemporánea.,7,2
+Futuro Digital,2024-11-25 17:00:00,Conferencia sobre tecnología y futuro.,8,1
+Cine Bajo las Estrellas,2024-12-05 19:00:00,Ciclo de cine clásico al aire libre.,9,8
+Música Electrónica en Vivo,2024-12-10 22:00:00,Festival de música electrónica en la playa.,10,4
+Festival de Artes Escénicas,2024-12-15 18:30:00,Festival con diversas presentaciones de artes escénicas.,2,6
+Mercado de Arte Local,2024-12-20 11:00:00,Un mercado donde los artistas locales exhiben sus obras.,3,5
+Exposición de Fotografía,2024-12-25 11:00:00,Exposición de fotógrafos emergentes.,3,9
