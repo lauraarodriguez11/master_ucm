@@ -10,9 +10,12 @@ Este repositorio contiene una serie de trabajos realizados en diferentes lenguaj
 4. [Trabajo 4: Proyecto de Programación con Python](trabajos/4/README.md) del módulo de 'Programación Python'
 5. [Trabajo 5: Análisis Financiero de Easy Loans](trabajos/5/README.md) del módulo de 'Business Intelligence con Tableau'
 6. [Trabajo 6: Modelos de Regresión Lineal y Logística](trabajos/6/README.md) del módulo de 'Minería de Datos y Modelización Predictiva (1)'
-7. [Trabajo 7: ](trabajos/7/README.md) del módulo de 'Minería de Datos y Modelización Predictiva (2)'
+7. [Trabajo 7: Series Temporales de Temperaturas Oceánicas](trabajos/7/README.md) del módulo de 'Minería de Datos y Modelización Predictiva (2)'
 8. [Trabajo 8: ](trabajos/8/README.md) del módulo de 'Minería de Datos y Modelización Predictiva (3)'
-9. [Trabajo 9: ](trabajos/9/README.md) del módulo de 'Minería de Datos y Modelización Predictiva (4)'
+9. [Trabajo 9: ](trabajos/9/README.md) del módulo de 'Machine Learning (1)'
+10. [Trabajo 10: ](trabajos/10/README.md) del módulo de 'Machine Learning (2)'
+11. [Trabajo 11: ](trabajos/11/README.md) del módulo de 'Machine Learning (3)'
+11. [Trabajo 12: ](trabajos/12/README.md) del módulo de 'Machine Learning (4)'
 ---
 
 ## Instrucciones Generales
