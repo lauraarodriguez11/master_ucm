@@ -12,10 +12,10 @@ Este repositorio contiene una serie de trabajos realizados en diferentes lenguaj
 6. [Trabajo 6: Modelos de Regresión Lineal y Logística](trabajos/6/README.md) del módulo de 'Minería de Datos y Modelización Predictiva (1)'
 7. [Trabajo 7: Series Temporales de Temperaturas Oceánicas](trabajos/7/README.md) del módulo de 'Minería de Datos y Modelización Predictiva (2)'
 8. [Trabajo 8: ACP y Clustering](trabajos/8/README.md) del módulo de 'Minería de Datos y Modelización Predictiva (3)'
-9. [Trabajo 9: RandomForest y XGBoost](trabajos/9/README.md) del módulo de 'Machine Learning'
-10. [Trabajo 10: ](trabajos/10/README.md) del módulo de 'Deep Learning'
+9. [Trabajo 9: RandomForest y XGBoost](trabajos/9/README.md) del módulo de 'Machine Learning (1)'
+10. [Trabajo 10: ](trabajos/10/README.md) del módulo de 'Machine Learning (2)'
 11. [Trabajo 11: ](trabajos/11/README.md) del módulo de 'Deep Learning'
-11. [Trabajo 12: ](trabajos/12/README.md) del módulo de 'Deep Learning'
+11. [Trabajo 12: ](trabajos/12/README.md) del módulo de 'RNN'
 ---
 
 ## Instrucciones Generales
