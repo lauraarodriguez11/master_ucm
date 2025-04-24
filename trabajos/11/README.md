@@ -1,6 +1,6 @@
 # Trabajo 11: 
 
-Este trabajo pertenece al módulo de 'Machine Learning' y tiene el siguiente enunciado:
+Este trabajo pertenece al módulo de 'Deep Learning' y tiene el siguiente enunciado:
 
 ##### Enunciado
 
@@ -8,6 +8,4 @@ Este trabajo pertenece al módulo de 'Machine Learning' y tiene el siguiente enu
 
 ## Archivos
 
-- **.ipynb**: 
-
-- **.ipynb**: 
+- **examen.ipynb**: 
