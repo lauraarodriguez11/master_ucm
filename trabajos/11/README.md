@@ -4,8 +4,8 @@ Este trabajo pertenece al módulo de 'Deep Learning' y tiene el siguiente enunci
 
 ##### Enunciado
 
-
+El objetivo de este ejercicio evaluable es poner a prueba tus conocimientos sobre redes neuronales, tanto densas como convolucionales, aplicadas a problemas de regresión y clasificación.
 
 ## Archivos
 
-- **examen.ipynb**: 
+- **examen.ipynb**
