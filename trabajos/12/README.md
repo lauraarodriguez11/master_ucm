@@ -8,4 +8,4 @@ El objetivo de esta tarea es predecir la temperatura m√≠nima en Melbourne dos d√
 
 ## Archivos
 
-- **RNN.ipynb**: 
+- **RNN.ipynb**
