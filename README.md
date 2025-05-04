@@ -15,7 +15,7 @@ Este repositorio contiene una serie de trabajos realizados en diferentes lenguaj
 9. [Trabajo 9: RandomForest y XGBoost](trabajos/9/README.md) del módulo de 'Machine Learning (1)'
 10. [Trabajo 10: Modelización Predictiva End2End con scikit-learn](trabajos/10/README.md) del módulo de 'Machine Learning (2)'
 11. [Trabajo 11: Deep Learning: Redes Densas y Convolucionales](trabajos/11/README.md) del módulo de 'Deep Learning'
-12. [Trabajo 12: ](trabajos/12/README.md) del módulo de 'RNN'
+12. [Trabajo 12: Predicción de Temperaturas con Redes Neuronales Recurrentes (RNN)](trabajos/12/README.md) del módulo de 'RNN'
 13. [Trabajo 13: ](trabajos/13/README.md) del módulo de 'NLP'
 ---
 
