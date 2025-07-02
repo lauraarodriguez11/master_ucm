@@ -16,7 +16,8 @@ Este repositorio contiene una serie de trabajos realizados en diferentes lenguaj
 10. [Trabajo 10: Modelización Predictiva End2End con scikit-learn](trabajos/10/README.md) del módulo de 'Machine Learning (2)'
 11. [Trabajo 11: Deep Learning: Redes Densas y Convolucionales](trabajos/11/README.md) del módulo de 'Deep Learning'
 12. [Trabajo 12: Predicción de Temperaturas con Redes Neuronales Recurrentes (RNN)](trabajos/12/README.md) del módulo de 'RNN'
-13. [Trabajo 13: ](trabajos/13/README.md) del módulo de 'NLP'
+13. [Trabajo 13: Classification & Question Answering Fine Tuning](trabajos/13/README.md) del módulo de 'NLP'
+14. [Trabajo 14: ](trabajos/14/README.md) del módulo de 'Spark'
 ---
 
 ## Instrucciones Generales
