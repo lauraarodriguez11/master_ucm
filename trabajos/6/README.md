@@ -1,4 +1,4 @@
-# Trabajo 6: 
+# Trabajo 6: Modelos de Regresión Lineal y Logística
 
 Este trabajo pertenece al módulo de 'Minería de Datos y Modelización Predictiva' y tiene el siguiente enunciado:
 
