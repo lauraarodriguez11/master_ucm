@@ -1,4 +1,4 @@
-# Trabajo 11: 
+# Trabajo 11: Deep Learning: Redes Densas y Convolucionales 
 
 Este trabajo pertenece al módulo de 'Deep Learning' y tiene el siguiente enunciado:
 
