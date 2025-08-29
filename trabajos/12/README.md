@@ -1,4 +1,4 @@
-# Trabajo 12: 
+# Trabajo 12: Predicción de Temperaturas con Redes Neuronales Recurrentes (RNN) 
 
 Este trabajo pertenece al módulo de 'Machine Learning' y tiene el siguiente enunciado:
 
