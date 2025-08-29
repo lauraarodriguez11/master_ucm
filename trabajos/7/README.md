@@ -1,4 +1,4 @@
-# Trabajo 7: 
+# Trabajo 7: Series Temporales de Temperaturas Oceánicas
 
 Este trabajo pertenece al módulo de 'Minería de Datos y Modelización Predictiva' y tiene el siguiente enunciado:
 
